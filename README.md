@@ -22,4 +22,14 @@ The main reason this is a problem is because the Gradle `resValue` setting uses 
 
 The value of `s3` becomes `1102574173`.
 
+A workaround is to wrap the number in double quotes, like:
+
+    <item name="s4" type="string">"336110023261"</item>
+
+Or with `resValue` in `build.gradle`:
+
+    resValue "string", "s5", "\"336110023261\""
+
+But if you wrap non-numeric strings in double quotes then the double quotes become part of the string.
+
 ![proof](screenshot.png)

@@ -22,6 +22,7 @@ android {
         versionCode 1
         versionName "1.0"
         resValue "string", "s3", "336110023261"
+        resValue "string", "s5", "\"336110023261\""
     }
 }
 
