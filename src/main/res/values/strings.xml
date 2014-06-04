@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StringBug</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="s1">336110023261</string>
+    <item name="s2" type="string">336110023261</item>
+
+</resources>
